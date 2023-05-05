@@ -1,0 +1,48 @@
+.header-bg {
+  position: relative;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 250px;
+  transition: transform 0.5s ease;
+}
+
+.header img:hover{
+  transform: scale(1.1);
+}
+
+.header-nav ul {
+  display: flex;
+  gap: 40px;
+  font-size: 1.2rem;
+  
+}
+
+.header-nav ul li a:hover{
+  color: var(--c1);
+}
+
+
+.header-icon{
+  display: flex;
+  gap: 10px;
+}
+
+.header-icon a svg{
+  width: 35px;
+}
+
+.header-icon a svg:hover{
+ fill: var(--c1);
+}
+
+.secundaria .header-bg{
+  background-color: var(--c2);
+}

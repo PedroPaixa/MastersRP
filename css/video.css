@@ -1,0 +1,21 @@
+.body-full {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-foreground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  filter: blur(4px);
+}
+
+.sobre{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}

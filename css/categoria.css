@@ -1,0 +1,128 @@
+.categoria-bg {
+  background-color: var(--c1);
+  padding: 80px 0 50px 0;
+}
+
+.categoria-h1-bg {
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.categoria-h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--c2);
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 0px 0px var(--c2);
+}
+
+/* .categoria-h1::before {
+  content: "";
+  width: 425px;
+  height: 85px;
+  
+  position: absolute;
+  top: 0;
+  left: 530px;
+  z-index: -1;
+  
+} */
+
+.categoria-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.categoria-cont {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  display: flex;
+  place-content: center;
+}
+
+.link h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  color: var(--c2);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 5px 5px 0px 0px var(--c1);
+}
+
+/* .link h2::before {
+  content: "";
+  width: 290px;
+  height: 80px;
+  background-color: var(--c2);
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  box-shadow: 5px 5px 0px 0px var(--c1);
+  text-align: center;
+} */
+
+/* Fundos */
+.ma,
+.ms,
+.mc,
+.mp,
+.mpp,
+.mf {
+  height: 250px;
+  position: relative;
+  border-radius: 50px;
+  background: no-repeat center/100% url("/assets/FUNDO@3.png");
+  background-size: cover;
+}
+
+.ma {
+  background: no-repeat center/100% url("/assets/FUNDO@6.png");
+  background-size: cover;
+}
+
+.ms {
+  background: no-repeat center/100% url("/assets/FUNDO@5.png");
+  background-size: cover;
+}
+
+.mp {
+  background: no-repeat center/100% url("/assets/FUNDO@2.png");
+  background-size: cover;
+}
+
+.mpp {
+  background: no-repeat center/100% url("/assets/FUNDO@4.png");
+  background-size: cover;
+}
+
+.mf {
+  background: no-repeat center/100% url("/assets/FUNDO@1.png");
+  background-size: cover;
+}
+
+/* Fim dos fundos */
+
+.categoria-p {
+  color: var(--c2);
+  margin-top: 80px;
+  text-align: center;
+}
+
+.categoria-cont :hover {
+  transform: scale(1.02);
+}

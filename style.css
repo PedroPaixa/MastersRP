@@ -1,0 +1,20 @@
+@import "global.css";
+
+/* Componentes */
+@import "css/componentes/btn.css";
+
+/* Header */
+@import "css/header.css";
+
+/* Video Home */
+@import "css/video.css";
+
+/* Home */
+@import "css/hero.css";
+
+/* Categoria */
+@import "css/categoria.css";
+
+/* Escolhas */
+@import "css/escolha.css";
+

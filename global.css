@@ -1,0 +1,47 @@
+:root{
+  --c1: #ffe15d;
+  --c1-hover: #d9b824;
+  --c2: #252525;
+  --c3: #efefef;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+

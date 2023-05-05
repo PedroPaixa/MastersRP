@@ -1,0 +1,121 @@
+.escolha-bg {
+  background: no-repeat center/100% url("../assets/gtaww.jpg");
+  background-size: cover;
+  padding: 80px 0 50px 0;
+}
+
+.escolha-h1-bg {
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.escolha-h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--c2);
+  position: relative;
+  z-index: 1;
+  padding: 20px 60px;
+  background-color: white;
+  box-shadow: 5px 5px 0px 0px var(--c2);
+}
+
+.escolha-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.escolha-group {
+  display: flex;
+  flex-direction: column;
+}
+.escolha-cont {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.escolha-cont h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  color: var(--c2);
+  background-color: white;
+  padding: 20px 60px;
+  box-shadow: 5px 5px 0px 0px var(--c1);
+}
+/* Fundos */
+.escolha-01,
+.escolha-02,
+.escolha-03,
+.escolha-06,
+.escolha-04,
+.escolha-05 {
+  height: 500px;
+  position: relative;
+  border-radius: 50px;
+  /* Fundo escolha-06 */
+  background: no-repeat center/100% url("/assets/nox.png");
+  background-size: cover;
+}
+
+.escolha-01 {
+  background: no-repeat center/100% url("/assets/alta.png");
+  background-size: cover;
+}
+
+.escolha-02 {
+  background: no-repeat center/100% url("/assets/complexo.png");
+  background-size: cover;
+}
+
+.escolha-03 {
+  background: no-repeat center/100% url("/assets/guarulhos.png");
+  background-size: cover;
+}
+
+.escolha-04 {
+  background: no-repeat center/100% url("/assets/bahamas.png");
+  background-size: cover;
+}
+
+.escolha-05 {
+  background: no-repeat center/100% url("/assets/NE.png");
+  background-size: cover;
+}
+
+/* Fim dos fundos */
+
+.escolha-p {
+  color: var(--c2);
+  margin-top: 80px;
+  text-align: center;
+}
+
+.escolha-cont :hover {
+  transform: scale(1.02);
+}
+
+.escolha-bg-nav {
+  background-color: var(--c2);
+  padding: 50px 0;
+}
+
+.escolha-bg-nav h3 {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+
+.escolha-nav ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  place-content: center;
+}

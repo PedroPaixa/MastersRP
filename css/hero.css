@@ -1,0 +1,46 @@
+.hero-bg {
+  position: relative;
+}
+
+.hero {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.hero-img img {
+  width: 1000px;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-img {
+  position: relative;
+}
+
+.hero-img::after {
+  content: "";
+  display: inline-block;
+  background: no-repeat center/100% url("/assets/CIRCULO.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: 0;
+  left: 0px;
+}
+
+.hero-desc {
+  margin-top: 100px;
+}
+
+.hero-desc h1 {
+  font-size: 5.5rem;
+  
+}
+
+.hero-desc p {
+  font-size: 1.2rem;
+}
